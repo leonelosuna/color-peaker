@@ -1,0 +1,44 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    
+}
+.container{
+    background: radial-gradient( #FF6666 0%, #FF1818 100%);
+    height: 100vh;
+}
+.salida {
+    text-transform: uppercase;
+    width: 30%;
+    height: 100px;
+    margin: 10px auto;
+    border: 1px solid #000000;
+    border-radius: 20px;
+}
+h2{
+    color: #ffffff;
+}
+h2:hover{
+    animation: myAnim 2s ease 0s 1 normal forwards;
+}
+
+@keyframes myAnim {
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+	}
+
+	25%,
+	75% {
+		opacity: 0;
+	}
+}
